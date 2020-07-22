@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"
+    id="bootstrap-css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <title>My note</title>
+
+</head>
+
+<body>
+  <div class="container-flude">
+    <nav class="navbar navbar-dark sticky-top bg-warning flex-md-nowrap p-0 shadow">
+      <a class="navbar-brand col-md-3 col-lg-2 mr-0 px-3" href="#">Work Managment</a>
+      <input class="form-control form-control-light w-100 " type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success " type="submit">Signout</button>
+    </nav>
+    <div class="sidenav">
+      <a href="dashboard.html" style="font-size: 15px;">
+        <span data-feather="home" width="15" height="15"> </span> Dashboard
+      </a>
+
+      <a href="My Note.html" style="font-size: 15px;">
+        <span data-feather="key" width="15" height="15"></span>
+        My Note</a>
+      <a href="Activity.html" style="font-size: 15;">
+        <span data-feather="activity" width="15" height="15"></span> Activity</a>
+      <a href="Revision.html" style="font-size: 15;">
+        <span data-feather="file" width="15" height="15"></span> Revision</a>
+      <a href="Setting.html" style="font-size: 15;"><span data-feather="settings" width="15" height="15"></span>
+        Setting</a>
+    </div>
+
+    <div class="main">
+      <div class="row">
+        <div class="col-md-10">
+          <h2 style="color:gray;">Notes</h2>
+        </div>
+        <div class="col-md-2">
+          <div class="btn-toolbar mb-2 mb-md-0">
+            <div class="btn-group mr-2">
+              <a class="btn btn-sm btn-warning text-white btn-outline-secondary" href="/task/add/">Add</a>
+              <a class="btn btn-sm btn-outline-secondary" href="/task/add/"><svg xmlns="http://www.w3.org/2000/svg"
+                  width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus-circle">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="12" y1="8" x2="12" y2="16"></line>
+                  <line x1="8" y1="12" x2="16" y2="12"></line>
+                </svg></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  <script>
+    feather.replace();
+  </script>
+</body>
+
+</html>

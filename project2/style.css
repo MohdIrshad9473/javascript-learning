@@ -1,7 +1,90 @@
-.bg{
-    background-image: url("static/desktop.png");
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidenav {
+      border-right-style: groove;
+      margin-top: 30px;
+    height: 100%;
+    width: 232px;
+    position: fixed;
+    z-index: 1 ;
+    top: 0;
+    left: 0;
+    background-color: ghostwhite;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 16px 8px 16px 16px;
+    text-decoration:none;
+    font-size: 15px;
+    color: #804e4e;
+    display: block;
+  }
+
+  
+  
+  .main {
+    margin-left: 235px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 10px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  fa-circle{
+    display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.6em;
+  }
+  i.fa {
+    display: inline-block;
+    background-color: hsl(0, 78%, 34%);
+    opacity:0.92;
+    border-radius: 60px;
+    box-shadow: 1px 0px 2px#343a40;
+    padding: 0.8em 0.8em;
+     
+  
+  }
+  i.fas{
+    display: inline-block;
+    background-color: hsl(241, 81%, 26%);
+    opacity:0.92;
+    border-radius: 60px;
+    box-shadow: 1px 0px 2px#343a40;
+    padding: 0.8em 0.8em;
+  }
+  
+  .box {
     
-}
-.navbar-brand{
-    background-color: blue;
-}
+    
+    margin-left:10px;
+    margin-left:10px;
+    height: 20rem; 
+    width:33rem;
+    border: 1px solid #ccc;
+    background: #fff;
+    float: left;
+  
+    
+  }
+  .box:hover {
+    box-shadow: 5px 10px #888888; 
+  }
+  .box1{
+    width:239px;
+  }
+  .box1:hover {
+    box-shadow: 4px 8px #888888; 
+  }
+  .linebtn{
+    line-height: 27px !important
+  }
+  
+  
